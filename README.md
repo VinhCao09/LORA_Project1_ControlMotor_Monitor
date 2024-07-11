@@ -8,11 +8,28 @@
 - Sensor: DHT11
 - Other: Button, Resistor, Capacitor, IC7805, Led, Jack DC,...
 
+Coding by Vinh Cao.
+Language programing: C++ (PlatformIO - Visual Studio Code)
+
+![images](https://cdn.platformio.org/images/platformio-logo.17fdc3bc.png)
+![images](https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png)
+
+## Overview
+	
+### *Thiết kế và phát triển hệ thống giám sát và điều khiển động cơ bằng LoRa đáp ứng các yêu cầu:*
+
+•	Khả năng giám sát và điều khiển động cơ từ xa một cách dễ dàng và hiệu quả.
+
+•	Tầm hoạt động rộng, có thể lên đến vài km.
+
+•	Độ tin cậy cao, khả năng chống nhiễu tốt.
+
+•	Chi phí triển khai thấp, dễ dàng mở rộng.
+
+![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/2.jpg)
+![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/3.jpg)
 
 
-![images](https://github.com/VinhCao09/RoboticArm_Based_on_ComputerVision/blob/main/images/1.jpg)
-![images](https://github.com/VinhCao09/RoboticArm_Based_on_ComputerVision/blob/main/images/2.jpg)
-![images](https://github.com/VinhCao09/RoboticArm_Based_on_ComputerVision/blob/main/images/3.jpg)
 ## 🚀 About Me
 Hello 👋I am Vinh. I'm studying HCMC University of Technology and Education
 
@@ -31,59 +48,30 @@ related Frameworks (Bootstrap)
 
 
 ## How to use
+Tính toán transistor dẫn ở chế độ bão hòa:
+![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/5.jpg)
 
-Upload the code to the Arduino
+##Schematic Master Block & Slave Block
 
-
-```bash
-  
-```
-Install the required libraries
-```bash
-cd python
-pip install -r requirements.txt
-```
-
-Set up webcam
-change the cam_source in the code.
-```bash
-cam_source = "http://192.168.1.99/hi-images"
-# 0 for camera, 1 for usbcam
-```
-Change the configuration
-*Then, change the configuration in the python code.*
-```bash
-x_min = 0
-x_mid = 75
-x_max = 150
-
-y_min = 0
-y_mid = 90
-y_max = 180
-
-z_min = 10
-z_mid = 90
-z_max = 180
-
-claw_open_angle = 120
-claw_close_angle = 92
-```
-*//Như của mình là từ góc 92 đến góc 120 độ là tầm hoạt động của cánh tay.*
-
+![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/schematic.jpg)
 make sure the com port is correct.
 
 ```bash
-ser = serial.Serial('COM5', 115200)
+[env:nanoatmega328]
+platform = atmelavr
+board = nanoatmega328
+framework = arduino
+upload_port = COM[3]
+monitor_speed = 9600
 ```
 
-run the code.
-```bash
-python main4.py
-```
+upload the code for Master & Slave
 
-*Sơ đồ trục Servo*
 
-![images](https://github.com/VinhCao09/RoboticArm_Based_on_ComputerVision/blob/main/images/4.jpg)
+
+*Kết quả*
+
+![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/1.jpg)
 
 ## Authors
 
@@ -93,7 +81,7 @@ python main4.py
 
 ## Demo
 
-https://www.tiktok.com/@vinhcaoplay/video/7389532656867740944?lang=vi-VN
+https://www.youtube.com/watch?v=W1axdlKnvck
 
 
 ![Logo](https://codingninja.asia/images/codeninjalogo.png)
