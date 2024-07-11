@@ -15,7 +15,8 @@ Language programing: C++ (PlatformIO - Visual Studio Code)
 ![images](https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png)
 
 ## Overview
-	
+#### Dự án này là đồ án 1 của mình phát triển trong môn học Project 1 (HK2 - Năm 3 - 2024 của Cao Văn Vinh, Khoa Điện - Điện tử - Trường ĐH Sư phạm Kỹ thuật Tp. HCM). Đồ án mang tính chất tham khảo.
+
 ### *Thiết kế và phát triển hệ thống giám sát và điều khiển động cơ bằng LoRa đáp ứng các yêu cầu:*
 
 •	Khả năng giám sát và điều khiển động cơ từ xa một cách dễ dàng và hiệu quả.
