@@ -1,7 +1,7 @@
 
-# Temperature and humidity monitoring system and remote control of submersible water pump motor using Lora
+# 🌡Temperature and humidity monitoring system and remote control of submersible water pump motor using Lora
 
-*##Components:*
+## *Components:*
 - Microcontroller: Arduino Nano (ATMega328P Old Bootloader)
 - Display: OLED SSD 1306 128x64 0.96 inch & LCD 2.4INCH 240x320 TFT ILI9341
 - Wireless: Module LORA SX1278 E32-433T20D (UART)
@@ -31,23 +31,6 @@ Language programing: C++ (PlatformIO - Visual Studio Code)
 ![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/3.jpg)
 
 
-## 🚀 About Me
-Hello 👋I am Vinh. I'm studying HCMC University of Technology and Education
-
-**Major:** Electronics and Telecommunication
-
-**Skill:** 
-
-*- Microcontroller:* ESP32/8266 - ARDUINO - PIC - Raspberry Pi - PLC Rockwell Allen Bradley
-
-*- Programming languages:* C/C++/HTML/CSS/PHP/SQL and
-related Frameworks (Bootstrap)
-
-*- Communication Protocols:* SPI, I2C, UART, CAN
-
-*- Data Trasmissions:* HTTP, TCP/IP, MQTT
-
-
 ## How to use
 Tính toán transistor dẫn ở chế độ bão hòa:
 ![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/5.jpg)
@@ -68,22 +51,35 @@ monitor_speed = 9600
 
 upload the code for Master & Slave
 
-
-
 *Kết quả*
 
 ![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/1.jpg)
+
+
+## ▶️Demo
+
+https://www.youtube.com/watch?v=W1axdlKnvck
+
+## 🚀 About Me
+Hello 👋I am Vinh. I'm studying HCMC University of Technology and Education
+
+**Major:** Electronics and Telecommunication
+
+**Skill:** 
+
+*- Microcontroller:* ESP32/8266 - ARDUINO - PIC - Raspberry Pi - PLC Rockwell Allen Bradley
+
+*- Programming languages:* C/C++/HTML/CSS/PHP/SQL and
+related Frameworks (Bootstrap)
+
+*- Communication Protocols:* SPI, I2C, UART, CAN
+
+*- Data Trasmissions:* HTTP, TCP/IP, MQTT
 
 ## Authors
 
 - [@my_fb](https://www.facebook.com/vcao.vn)
 - [@my_email](contact@vinhcaodatabase.com)
-
-
-## Demo
-
-https://www.youtube.com/watch?v=W1axdlKnvck
-
 
 ![Logo](https://codingninja.asia/images/codeninjalogo.png)
 
