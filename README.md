@@ -32,6 +32,10 @@ Language programing: C++ (PlatformIO - Visual Studio Code)
 
 
 ## How to use
+Version Arduino IDE Recommend: `2.3.2`
+
+Version Board Recommend: Arduino AVR Board `version 1.8.6`
+
 Tính toán transistor dẫn ở chế độ bão hòa:
 ![images](https://github.com/VinhCao09/LORA_Project1_ControlMotorandMonitor/blob/main/images/5.jpg)
 
